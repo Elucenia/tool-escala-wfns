@@ -1,0 +1,95 @@
+[
+  {
+    "label": "Glasgow 15 sem déficit: grau I",
+    "input": {
+      "gcs": 15,
+      "deficit": "0"
+    },
+    "expected": {
+      "raw": {
+        "grade": 1
+      },
+      "level": "low",
+      "main": "Grau I"
+    },
+    "originalInput": {
+      "gcs": 15,
+      "deficit": "0"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Glasgow 13 sem déficit: grau II",
+    "input": {
+      "gcs": 13,
+      "deficit": "0"
+    },
+    "expected": {
+      "raw": {
+        "grade": 2
+      },
+      "level": "low"
+    },
+    "originalInput": {
+      "gcs": 13,
+      "deficit": "0"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Glasgow 14 com hemiparesia: grau III",
+    "input": {
+      "gcs": 14,
+      "deficit": "1"
+    },
+    "expected": {
+      "raw": {
+        "grade": 3
+      },
+      "level": "mid",
+      "main": "Grau III"
+    },
+    "originalInput": {
+      "gcs": 14,
+      "deficit": "1"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Glasgow 7 (limite): grau IV",
+    "input": {
+      "gcs": 7,
+      "deficit": "0"
+    },
+    "expected": {
+      "raw": {
+        "grade": 4
+      },
+      "level": "high"
+    },
+    "originalInput": {
+      "gcs": 7,
+      "deficit": "0"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Glasgow 6 com déficit: grau V",
+    "input": {
+      "gcs": 6,
+      "deficit": "1"
+    },
+    "expected": {
+      "raw": {
+        "grade": 5
+      },
+      "level": "high",
+      "verdict": "mau grau"
+    },
+    "originalInput": {
+      "gcs": 6,
+      "deficit": "1"
+    },
+    "expandedZeroOptions": []
+  }
+]
