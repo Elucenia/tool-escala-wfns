@@ -7,7 +7,7 @@ Identificador: `escala-wfns`. Pacote independente da plataforma Elucenia, para n
 - Revisão: **needs-review**. Revisão documental e clínica independente pendente.
 - Execução: **disponível para reprodução técnica da fórmula**.
 - Validação clínica independente: **não realizada**. Os testes abaixo verificam aritmética e transporte dos campos.
-- 5 casos de referência em `examples.json`, conferidos por `test.cjs`. Verificação aritmética independente da fórmula (reimplementação a partir da literatura, entradas aleatórias): **pendente**.
+- 5 casos de referência em `examples.json`, conferidos por `test.cjs`. Verificação aritmética independente da fórmula (reimplementação a partir da literatura, entradas aleatórias): **realizada em 2026-09-25**, 36 comparações conformes. Observação para a revisão clínica: Glasgow 15 com déficit motor: não definido na tabela WFNS original; a ferramenta classifica como grau I. Decidir na revisão clínica (grau I com aviso, ou grau II).
 - Dados: o exemplo funciona localmente, sem rede, armazenamento ou identificação de pacientes.
 
 ## Uso no Node.js
