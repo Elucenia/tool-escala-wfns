@@ -1,11 +1,11 @@
-/* tool-escala-wfns · Elucenia · https://github.com/Elucenia/tool-escala-wfns
-   Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
+/* tool-escala-wfns · ELUCENIA · https://github.com/Elucenia/tool-escala-wfns
+   Copyright (c) 2026 ELUCENIA · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
    Standalone integration. Package metadata and rights: README.md. */
 (function(root){'use strict';
 function freeze(value){if(value&&typeof value==='object'){for(const item of Object.values(value))freeze(item);Object.freeze(value);}return value;}
 const TOOL=freeze({"id":"escala-wfns","title":"Escala WFNS","fields":[["gcs","Escala de coma de Glasgow","num",{"min":3,"max":15,"step":1,"unit":"pontos","ph":"14"}],["deficit","Déficit motor focal (hemiparesia, afasia)","radio",{"opts":{"0":"Ausente","1":"Presente"}}]],"config":null,"reviewStatus":"needs-review","clinicalValidation":"not-performed"});
 const window={};
-/* Elucenia arithmetic registry. No DOM access, storage, telemetry or network requests. */
+/* ELUCENIA arithmetic registry. No DOM access, storage, telemetry or network requests. */
 (function(root){
   'use strict';
   const CALC={fn:Object.create(null)};
