@@ -1,6 +1,13 @@
 [
   {
-    "label": "Glasgow 15 sem déficit: grau I",
+    "id": "escala-wfns",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "Glasgow 15 sem déficit: grau I",
+    "originalInput": {
+      "gcs": 15,
+      "deficit": "0"
+    },
     "input": {
       "gcs": 15,
       "deficit": "0"
@@ -12,14 +19,34 @@
       "level": "low",
       "main": "Grau I"
     },
-    "originalInput": {
-      "gcs": 15,
-      "deficit": "0"
+    "recordedResult": {
+      "main": [
+        "Grau I",
+        ""
+      ],
+      "label": "Escala WFNS",
+      "raw": {
+        "grade": 1
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Glasgow 13 sem déficit: grau II",
+    "id": "escala-wfns",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "Glasgow 13 sem déficit: grau II",
+    "originalInput": {
+      "gcs": 13,
+      "deficit": "0"
+    },
     "input": {
       "gcs": 13,
       "deficit": "0"
@@ -30,14 +57,34 @@
       },
       "level": "low"
     },
-    "originalInput": {
-      "gcs": 13,
-      "deficit": "0"
+    "recordedResult": {
+      "main": [
+        "Grau II",
+        ""
+      ],
+      "label": "Escala WFNS",
+      "raw": {
+        "grade": 2
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Glasgow 14 com hemiparesia: grau III",
+    "id": "escala-wfns",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "Glasgow 14 com hemiparesia: grau III",
+    "originalInput": {
+      "gcs": 14,
+      "deficit": "1"
+    },
     "input": {
       "gcs": 14,
       "deficit": "1"
@@ -49,14 +96,34 @@
       "level": "mid",
       "main": "Grau III"
     },
-    "originalInput": {
-      "gcs": 14,
-      "deficit": "1"
+    "recordedResult": {
+      "main": [
+        "Grau III",
+        ""
+      ],
+      "label": "Escala WFNS",
+      "raw": {
+        "grade": 3
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Glasgow 7 (limite): grau IV",
+    "id": "escala-wfns",
+    "kind": "native-source-reference",
+    "index": 3,
+    "name": "Glasgow 7 (limite): grau IV",
+    "originalInput": {
+      "gcs": 7,
+      "deficit": "0"
+    },
     "input": {
       "gcs": 7,
       "deficit": "0"
@@ -67,14 +134,34 @@
       },
       "level": "high"
     },
-    "originalInput": {
-      "gcs": 7,
-      "deficit": "0"
+    "recordedResult": {
+      "main": [
+        "Grau IV",
+        ""
+      ],
+      "label": "Escala WFNS",
+      "raw": {
+        "grade": 4
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Glasgow 6 com déficit: grau V",
+    "id": "escala-wfns",
+    "kind": "native-source-reference",
+    "index": 4,
+    "name": "Glasgow 6 com déficit: grau V",
+    "originalInput": {
+      "gcs": 6,
+      "deficit": "1"
+    },
     "input": {
       "gcs": 6,
       "deficit": "1"
@@ -86,10 +173,23 @@
       "level": "high",
       "verdict": "mau grau"
     },
-    "originalInput": {
-      "gcs": 6,
-      "deficit": "1"
+    "recordedResult": {
+      "main": [
+        "Grau V",
+        ""
+      ],
+      "label": "Escala WFNS",
+      "raw": {
+        "grade": 5
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]

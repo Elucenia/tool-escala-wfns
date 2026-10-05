@@ -1,0 +1,192 @@
+[
+  {
+    "name": "Reject null input",
+    "input": null,
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject array input",
+    "input": [],
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject string input",
+    "input": "invalid",
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject numeric input",
+    "input": 1,
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field gcs",
+    "input": {
+      "deficit": "0"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "gcs"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field gcs",
+    "input": {
+      "gcs": "",
+      "deficit": "0"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "gcs"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"NaN\" gcs",
+    "input": {
+      "gcs": "NaN",
+      "deficit": "0"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "gcs"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"Infinity\" gcs",
+    "input": {
+      "gcs": "Infinity",
+      "deficit": "0"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "gcs"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"1e309\" gcs",
+    "input": {
+      "gcs": "1e309",
+      "deficit": "0"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "gcs"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"invalid\" gcs",
+    "input": {
+      "gcs": "invalid",
+      "deficit": "0"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "gcs"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric {} gcs",
+    "input": {
+      "gcs": {},
+      "deficit": "0"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "gcs"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric true gcs",
+    "input": {
+      "gcs": true,
+      "deficit": "0"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "gcs"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject below documented minimum gcs",
+    "input": {
+      "gcs": 2,
+      "deficit": "0"
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "gcs"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject above documented maximum gcs",
+    "input": {
+      "gcs": 16.5,
+      "deficit": "0"
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "gcs"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field deficit",
+    "input": {
+      "gcs": 15
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "deficit"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field deficit",
+    "input": {
+      "gcs": 15,
+      "deficit": ""
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "deficit"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject undocumented option deficit",
+    "input": {
+      "gcs": 15,
+      "deficit": "__ELUCENIA_INVALID_OPTION__"
+    },
+    "expected": {
+      "code": "INVALID_OPTION",
+      "field": "deficit"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  }
+]

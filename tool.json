@@ -3,15 +3,15 @@
     "id": "escala-wfns",
     "title": "Escala WFNS",
     "short": "Grau da hemorragia subaracnóidea pelo Glasgow",
+    "desc": "Escala WFNS da Federação Mundial de Neurocirurgia: grau I a V da hemorragia subaracnóidea pelo Glasgow e pela presença de déficit motor focal.",
+    "lead": "Gradua a hemorragia subaracnóidea pela escala de coma de Glasgow e pela presença de déficit motor focal, com menos subjetividade que a Hunt-Hess.",
+    "kind": "Calculadora",
     "spec": [
       "neurocirurgia",
       "neurologia",
       "medicina-intensiva",
       "medicina-de-emergencia"
     ],
-    "tier": 1,
-    "desc": "Escala WFNS da Federação Mundial de Neurocirurgia: grau I a V da hemorragia subaracnóidea pelo Glasgow e pela presença de déficit motor focal.",
-    "lead": "Gradua a hemorragia subaracnóidea pela escala de coma de Glasgow e pela presença de déficit motor focal, com menos subjetividade que a Hunt-Hess.",
     "fields": [
       [
         "gcs",
@@ -38,48 +38,14 @@
       ]
     ],
     "formula": "<p>Grau I: Glasgow 15, sem déficit motor · Grau II: Glasgow 13 a 14, sem déficit · Grau III: Glasgow 13 a 14, com déficit · Grau IV: Glasgow 7 a 12, com ou sem déficit · Grau V: Glasgow 3 a 6, com ou sem déficit.</p>",
-    "table": [
-      [
-        "Grau WFNS",
-        "Glasgow",
-        "Déficit motor"
-      ],
-      [
-        "I",
-        "15",
-        "Ausente"
-      ],
-      [
-        "II",
-        "13 a 14",
-        "Ausente"
-      ],
-      [
-        "III",
-        "13 a 14",
-        "Presente"
-      ],
-      [
-        "IV",
-        "7 a 12",
-        "Presente ou ausente"
-      ],
-      [
-        "V",
-        "3 a 6",
-        "Presente ou ausente"
-      ]
-    ],
-    "tips": [
-      "Use o Glasgow após a estabilização inicial e, se possível, após tratar hidrocefalia e crises: o grau de admissão pode subestimar o potencial de recuperação.",
-      "O déficit motor só muda a classificação com Glasgow 13 ou 14 (graus II e III).",
-      "Graus IV e V (“mau grau”) não contraindicam por si o tratamento do aneurisma: a resposta à derivação ventricular ajuda a decidir.",
-      "Registre também a Fisher modificada na tomografia: as duas escalas se complementam (clínica e risco de vasoespasmo)."
-    ],
     "sources": [
       [
         "Teasdale GM et al. A universal subarachnoid hemorrhage scale: report of a committee of the World Federation of Neurosurgical Societies. J Neurol Neurosurg Psychiatry, 1988.",
         "https://doi.org/10.1136/jnnp.51.11.1457"
+      ],
+      [
+        "WFNS1988,original JNNPletter,p1457",
+        "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2309/1032822/5084dd0d5156/jnnpsyc00546-0085.png"
       ]
     ],
     "cases": [
@@ -152,9 +118,6 @@
         }
       ]
     ],
-    "kind": "Calculadora",
-    "config": null,
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -163,17 +126,430 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-04T15:17:41.432Z",
+      "total": 25,
+      "passed": 25,
+      "embeddedCasesAreSubset": true,
+      "embeddedCaseCount": 4,
+      "caseStorage": {
+        "mode": "complete-downloadable-bank-with-inline-subset",
+        "file": "independent-source-cases.json",
+        "sha256": "3d91f6bb581b95ac89d3ae12a464ca343adb155abb484f6aae1f8e30623e09d1",
+        "total": 25,
+        "sourceContextCount": 25,
+        "expectedEvidence": {
+          "file": "reports/review-20261003/six-classification-peer-expectations-final25.json",
+          "sha256": "f224a891b06428ed29426f073e0cc8d1ad5ad2d56b78646c85243237166bf001"
+        },
+        "obtainedEvidence": {
+          "file": "reports/review-20261003/six-classification-source-oracles-independent-review-final25.json",
+          "sha256": "683814d261c3e6a11e71d38a4a1002c438f4911c020641f8f057e2253fad3afe"
+        },
+        "packagingRequirement": "Copy this complete bank into the fresh tool package; frozen final24 packages do not contain this source evidence."
+      },
+      "scope": "Only the 25 GCS/major motor-deficit pairs assigned by the original 1988 table. GCS 15 with deficit is unassigned in that source and excluded from passed counts; local fallback captured separately. No unruptured grade 0 or outcome validation.",
+      "source": {
+        "tool": "escala-wfns",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1032822/",
+        "edition": "Teasdale1988 JNNP51:1457 original letter and table",
+        "access": "Direct PMC metadata; PDF reCAPTCHA and first standalone-image web open failed. Actual original PNG downloaded from linked NCBI CDN and visually read.",
+        "file": "six-source-classification-primary-final25/wfns-1988-peer-original.png",
+        "sha256": "f75f8146049da6c133848a5e685e40109fb601319a4cd51fbdb9e474b58f142d",
+        "readScope": "Original five-grade GCS/major-motor-deficit table only. GCS15 with deficit unlisted and unruptured grade0 excluded; unrelated letters on page excluded."
+      },
+      "evidencePath": "reports/review-20261003/six-classification-source-oracles-final25-r2.json",
+      "evidenceSha256": "06dd6f382c1dd3555db037b3b35ee7d0e4709207ad0a28df0de64fefc11038e2",
+      "peerEvidencePath": "reports/review-20261003/six-classification-source-oracles-independent-review-final25.json",
+      "peerEvidenceSha256": "683814d261c3e6a11e71d38a4a1002c438f4911c020641f8f057e2253fad3afe",
+      "implementations": [
+        {
+          "file": "apps/website/private/tool-code/escala-wfns/calculator.js",
+          "sha256": "adfe18a9258b167be77049d50632cdff6b8489f51e24bbe80dac14e0fe27c43e",
+          "importedAt": "2026-10-04T15:17:36.460Z",
+          "sourceContexts": 25,
+          "distinctApiInputs": 25,
+          "instrumentation": "One readonly internal observer exposed only in VM; original function/config bytes not changed."
+        },
+        {
+          "file": "apps/dashboard/private/tool-code/escala-wfns/calculator.js",
+          "sha256": "adfe18a9258b167be77049d50632cdff6b8489f51e24bbe80dac14e0fe27c43e",
+          "importedAt": "2026-10-04T15:17:36.979Z",
+          "sourceContexts": 25,
+          "distinctApiInputs": 25,
+          "instrumentation": "One readonly internal observer exposed only in VM; original function/config bytes not changed."
+        },
+        {
+          "file": "apps/command-center/private/tool-code/escala-wfns/calculator.js",
+          "sha256": "adfe18a9258b167be77049d50632cdff6b8489f51e24bbe80dac14e0fe27c43e",
+          "importedAt": "2026-10-04T15:17:37.674Z",
+          "sourceContexts": 25,
+          "distinctApiInputs": 25,
+          "instrumentation": "One readonly internal observer exposed only in VM; original function/config bytes not changed."
+        }
+      ],
+      "sourceContextCount": 25,
+      "uniqueApiInputCount": 25,
+      "actualAdapterExecutions": 75,
+      "isolatedChromiumExecutions": 25,
+      "qualifications": [
+        "Only the 25 GCS/major motor-deficit pairs assigned by the original 1988 table. GCS 15 with deficit is unassigned in that source and excluded from passed counts; local fallback captured separately. No unruptured grade 0 or outcome validation.",
+        "CIWA4229 patterns are pairwise/boundary/supplemental coverage, not all671088640 possible inputs.",
+        "Fisher10 source-feature contexts map to five unique API grade-code inputs. The feature-to-grade assignment was independently reconstructed from Table1 by the test; it is not implemented as an automated CT classifier.",
+        "WFNS GCS15 plus deficit has no original table assignment and is recorded only as a local-fallback observation.",
+        "Forrest/GOS/Fisher inputs represent classifications selected before use; numeric/code echo is not diagnosis, prognosis, risk calibration or therapeutic approval.",
+        "Original source cases, historical expected values and tolerances remain unchanged.",
+        "Original historical cases, expected values and tolerances remain unchanged. Separate Fisher source-description amendment changes only the explicitly recorded description/formula/version metadata; all clinical/professional/rights/release approval flags remain unchanged. Passed status describes only the named integer/code scope."
+      ],
+      "unresolvedSourceFindings": [
+        {
+          "id": "escala-wfns",
+          "area": "unlisted source combination",
+          "confirmed": "GCS15+deficit not in original table; existing local gradeI fallback/caveat recorded only.",
+          "alreadyDocumented": true,
+          "sourceValidated": false
+        }
+      ],
+      "excludedObservations": [
+        {
+          "id": "escala-wfns",
+          "app": "website",
+          "input": {
+            "gcs": 15,
+            "deficit": 1
+          },
+          "obtained": {
+            "id": "escala-wfns",
+            "main": [
+              "Grau I",
+              ""
+            ],
+            "label": "Escala WFNS",
+            "raw": {
+              "grade": 1
+            },
+            "clinicalValidation": "not-performed"
+          },
+          "countedAsSourcePass": false,
+          "reason": "Original table has no assignment; observe local fallback without source pass."
+        },
+        {
+          "id": "escala-wfns",
+          "app": "dashboard",
+          "input": {
+            "gcs": 15,
+            "deficit": 1
+          },
+          "obtained": {
+            "id": "escala-wfns",
+            "main": [
+              "Grau I",
+              ""
+            ],
+            "label": "Escala WFNS",
+            "raw": {
+              "grade": 1
+            },
+            "clinicalValidation": "not-performed"
+          },
+          "countedAsSourcePass": false,
+          "reason": "Original table has no assignment; observe local fallback without source pass."
+        },
+        {
+          "id": "escala-wfns",
+          "app": "command-center",
+          "input": {
+            "gcs": 15,
+            "deficit": 1
+          },
+          "obtained": {
+            "id": "escala-wfns",
+            "main": [
+              "Grau I",
+              ""
+            ],
+            "label": "Escala WFNS",
+            "raw": {
+              "grade": 1
+            },
+            "clinicalValidation": "not-performed"
+          },
+          "countedAsSourcePass": false,
+          "reason": "Original table has no assignment; observe local fallback without source pass."
+        }
+      ],
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "sourceRightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed",
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "WFNS/Teasdale 1988:GCS edéficitmotor,5 graus",
+    "implementationVersion": "escala-wfns@native-2026-10-03+adfe18a9258b",
+    "currentMethodSource": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1032822/",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "Grau I: Glasgow 15, sem déficit motor · Grau II: Glasgow 13 a 14, sem déficit · Grau III: Glasgow 13 a 14, com déficit · Grau IV: Glasgow 7 a 12, com ou sem déficit · Grau V: Glasgow 3 a 6, com ou sem déficit.",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "gcs",
+            "label": "Escala de coma de Glasgow",
+            "type": "num",
+            "min": 3,
+            "max": 15,
+            "unit": "pontos",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "deficit",
+            "label": "Déficit motor focal (hemiparesia, afasia)",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Ausente",
+              "1": "Presente"
+            }
+          }
+        ],
+        "hash": "89c5298e7e42e1a508b452deb545419077d24ae1fd4d8296efc1c0239f6d21ed"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Teasdale GM et al. A universal subarachnoid hemorrhage scale: report of a committee of the World Federation of Neurosurgical Societies. J Neurol Neurosurg Psychiatry, 1988.",
+          "url": "https://doi.org/10.1136/jnnp.51.11.1457",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "A universal subarachnoid hemorrhage scale: report of a committee of the World Federation of Neurosurgical Societies.",
+            "year": "1988",
+            "firstPublicationDate": "1988-11-01",
+            "doi": "10.1136/jnnp.51.11.1457",
+            "pmid": "3236024",
+            "pmcid": "PMC1032822",
+            "journal": "Journal of neurology, neurosurgery, and psychiatry",
+            "authors": "Teasdale GM, Drake CG, Hunt W, Kassell N, Sano K, Pertuiset B, De Villiers JC."
+          },
+          "primaryPublicationUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1032822/",
+          "abstractAvailable": false,
+          "fullTextSha256": null,
+          "abstractSha256": null,
+          "matchedBy": "exact-DOI-or-PMID"
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-04T15:17:41.432Z",
+        "total": 25,
+        "passed": 25,
+        "embeddedCasesAreSubset": true,
+        "embeddedCaseCount": 4,
+        "caseStorage": {
+          "mode": "complete-downloadable-bank-with-inline-subset",
+          "file": "independent-source-cases.json",
+          "sha256": "3d91f6bb581b95ac89d3ae12a464ca343adb155abb484f6aae1f8e30623e09d1",
+          "total": 25,
+          "sourceContextCount": 25,
+          "expectedEvidence": {
+            "file": "reports/review-20261003/six-classification-peer-expectations-final25.json",
+            "sha256": "f224a891b06428ed29426f073e0cc8d1ad5ad2d56b78646c85243237166bf001"
+          },
+          "obtainedEvidence": {
+            "file": "reports/review-20261003/six-classification-source-oracles-independent-review-final25.json",
+            "sha256": "683814d261c3e6a11e71d38a4a1002c438f4911c020641f8f057e2253fad3afe"
+          },
+          "packagingRequirement": "Copy this complete bank into the fresh tool package; frozen final24 packages do not contain this source evidence."
+        },
+        "scope": "Only the 25 GCS/major motor-deficit pairs assigned by the original 1988 table. GCS 15 with deficit is unassigned in that source and excluded from passed counts; local fallback captured separately. No unruptured grade 0 or outcome validation.",
+        "source": {
+          "tool": "escala-wfns",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1032822/",
+          "edition": "Teasdale1988 JNNP51:1457 original letter and table",
+          "access": "Direct PMC metadata; PDF reCAPTCHA and first standalone-image web open failed. Actual original PNG downloaded from linked NCBI CDN and visually read.",
+          "file": "six-source-classification-primary-final25/wfns-1988-peer-original.png",
+          "sha256": "f75f8146049da6c133848a5e685e40109fb601319a4cd51fbdb9e474b58f142d",
+          "readScope": "Original five-grade GCS/major-motor-deficit table only. GCS15 with deficit unlisted and unruptured grade0 excluded; unrelated letters on page excluded."
+        },
+        "evidencePath": "reports/review-20261003/six-classification-source-oracles-final25-r2.json",
+        "evidenceSha256": "06dd6f382c1dd3555db037b3b35ee7d0e4709207ad0a28df0de64fefc11038e2",
+        "peerEvidencePath": "reports/review-20261003/six-classification-source-oracles-independent-review-final25.json",
+        "peerEvidenceSha256": "683814d261c3e6a11e71d38a4a1002c438f4911c020641f8f057e2253fad3afe",
+        "implementations": [
+          {
+            "file": "apps/website/private/tool-code/escala-wfns/calculator.js",
+            "sha256": "adfe18a9258b167be77049d50632cdff6b8489f51e24bbe80dac14e0fe27c43e",
+            "importedAt": "2026-10-04T15:17:36.460Z",
+            "sourceContexts": 25,
+            "distinctApiInputs": 25,
+            "instrumentation": "One readonly internal observer exposed only in VM; original function/config bytes not changed."
+          },
+          {
+            "file": "apps/dashboard/private/tool-code/escala-wfns/calculator.js",
+            "sha256": "adfe18a9258b167be77049d50632cdff6b8489f51e24bbe80dac14e0fe27c43e",
+            "importedAt": "2026-10-04T15:17:36.979Z",
+            "sourceContexts": 25,
+            "distinctApiInputs": 25,
+            "instrumentation": "One readonly internal observer exposed only in VM; original function/config bytes not changed."
+          },
+          {
+            "file": "apps/command-center/private/tool-code/escala-wfns/calculator.js",
+            "sha256": "adfe18a9258b167be77049d50632cdff6b8489f51e24bbe80dac14e0fe27c43e",
+            "importedAt": "2026-10-04T15:17:37.674Z",
+            "sourceContexts": 25,
+            "distinctApiInputs": 25,
+            "instrumentation": "One readonly internal observer exposed only in VM; original function/config bytes not changed."
+          }
+        ],
+        "sourceContextCount": 25,
+        "uniqueApiInputCount": 25,
+        "actualAdapterExecutions": 75,
+        "isolatedChromiumExecutions": 25,
+        "qualifications": [
+          "Only the 25 GCS/major motor-deficit pairs assigned by the original 1988 table. GCS 15 with deficit is unassigned in that source and excluded from passed counts; local fallback captured separately. No unruptured grade 0 or outcome validation.",
+          "CIWA4229 patterns are pairwise/boundary/supplemental coverage, not all671088640 possible inputs.",
+          "Fisher10 source-feature contexts map to five unique API grade-code inputs. The feature-to-grade assignment was independently reconstructed from Table1 by the test; it is not implemented as an automated CT classifier.",
+          "WFNS GCS15 plus deficit has no original table assignment and is recorded only as a local-fallback observation.",
+          "Forrest/GOS/Fisher inputs represent classifications selected before use; numeric/code echo is not diagnosis, prognosis, risk calibration or therapeutic approval.",
+          "Original source cases, historical expected values and tolerances remain unchanged.",
+          "Original historical cases, expected values and tolerances remain unchanged. Separate Fisher source-description amendment changes only the explicitly recorded description/formula/version metadata; all clinical/professional/rights/release approval flags remain unchanged. Passed status describes only the named integer/code scope."
+        ],
+        "unresolvedSourceFindings": [
+          {
+            "id": "escala-wfns",
+            "area": "unlisted source combination",
+            "confirmed": "GCS15+deficit not in original table; existing local gradeI fallback/caveat recorded only.",
+            "alreadyDocumented": true,
+            "sourceValidated": false
+          }
+        ],
+        "excludedObservations": [
+          {
+            "id": "escala-wfns",
+            "app": "website",
+            "input": {
+              "gcs": 15,
+              "deficit": 1
+            },
+            "obtained": {
+              "id": "escala-wfns",
+              "main": [
+                "Grau I",
+                ""
+              ],
+              "label": "Escala WFNS",
+              "raw": {
+                "grade": 1
+              },
+              "clinicalValidation": "not-performed"
+            },
+            "countedAsSourcePass": false,
+            "reason": "Original table has no assignment; observe local fallback without source pass."
+          },
+          {
+            "id": "escala-wfns",
+            "app": "dashboard",
+            "input": {
+              "gcs": 15,
+              "deficit": 1
+            },
+            "obtained": {
+              "id": "escala-wfns",
+              "main": [
+                "Grau I",
+                ""
+              ],
+              "label": "Escala WFNS",
+              "raw": {
+                "grade": 1
+              },
+              "clinicalValidation": "not-performed"
+            },
+            "countedAsSourcePass": false,
+            "reason": "Original table has no assignment; observe local fallback without source pass."
+          },
+          {
+            "id": "escala-wfns",
+            "app": "command-center",
+            "input": {
+              "gcs": 15,
+              "deficit": 1
+            },
+            "obtained": {
+              "id": "escala-wfns",
+              "main": [
+                "Grau I",
+                ""
+              ],
+              "label": "Escala WFNS",
+              "raw": {
+                "grade": 1
+              },
+              "clinicalValidation": "not-performed"
+            },
+            "countedAsSourcePass": false,
+            "reason": "Original table has no assignment; observe local fallback without source pass."
+          }
+        ],
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed",
+        "publicCandidateBankOmitted": true
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "adfe18a9258b167be77049d50632cdff6b8489f51e24bbe80dac14e0fe27c43e"
+    },
+    "limits": "A WFNS de 1988 combina Glasgow e déficit motor para graduar hemorragia subaracnóidea; o grau zero da fonte corresponde a aneurisma não roto e é distinto dos cinco graus de hemorragia. Use Glasgow clinicamente avaliável e documente fatores que interfiram no exame. O artigo não descreve a combinação Glasgow 15 com déficit motor; a interface mantém grau I e exibe essa ressalva, sem apresentá-la como combinação validada. Esta é a edição original, não uma WFNS modificada posterior, e não fornece prognóstico individual automático.",
+    "limitsEvidence": {
+      "status": "direct-original-letter-table-visually-read",
+      "sources": [
+        {
+          "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2309/1032822/5084dd0d5156/jnnpsyc00546-0085.png",
+          "edition": "WFNS1988,original JNNPletter,p1457",
+          "readScope": "Original digitized page visually read: left letter/table and closing/signature/references at top middle; unrelated neighboring letter not reviewed. Five SAH grades and separate unruptured-aneurysm grade0.",
+          "capture": "primary-verify-limits-final23/wfns1988.png",
+          "imageSha256": "f75f8146049da6c133848a5e685e40109fb601319a4cd51fbdb9e474b58f142d"
+        }
+      ],
+      "populationScope": "Clinical grading after subarachnoid hemorrhage; unruptured aneurysm is separate grade0 in source.",
+      "remainingChecks": [
+        "No new independent adjudication of sedation/intubation or Glasgow15+motor-deficit combination.",
+        "Original letter read; later modified-WFNS performance not reviewed."
+      ],
+      "clinicalValidation": "not-performed",
+      "professionalLanguageReview": "not-performed",
+      "rightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed"
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/escala-wfns/calculator.js",
+    "bytes": 4876,
+    "sha256": "adfe18a9258b167be77049d50632cdff6b8489f51e24bbe80dac14e0fe27c43e"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "dfa17d652d6a6017db7d49ce5fbfe76cbf6004981f3a8b1fe46ed000eda18d76",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 4,
+      "sha256": "89a1cb814d6b0be580d966d4dfc8082455227937c2b4d9ebf5ee1a23432a0b41",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    },
+    {
+      "rows": 4,
+      "sha256": "89a1cb814d6b0be580d966d4dfc8082455227937c2b4d9ebf5ee1a23432a0b41",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }
