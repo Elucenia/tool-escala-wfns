@@ -1,0 +1,990 @@
+{
+  "schema": "elucenia-native-tool-actual-r6-local-HTTP-subset-r5",
+  "id": "escala-wfns",
+  "sourceReceipt": {
+    "file": "reports/review-20261005-completion/deploy-lock/r6-all-calculators-http-results.json",
+    "bytes": 7105396,
+    "sha256": "c0b1e4dc320ce807e78c0444e629c1269b545b6e2ac87c265d896073d8c34ecb"
+  },
+  "servedBuildId": "jN-2wbRrarMjYPwdPnRHh",
+  "checker": {
+    "file": "reports/review-20261005-completion/deploy-lock/verify-r6-all-calculators-http.cjs",
+    "sha256": "92411a9e01fe36e1bf380c3336f2171bdb523a02ff09683da75927b12b33b3fa",
+    "bytes": 20735
+  },
+  "health": {
+    "url": "http://127.0.0.1:3067/api/health",
+    "startedAt": "2026-10-05T17:35:43.039Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json",
+      "retryAfter": null,
+      "cacheControl": "no-store",
+      "nosniff": "nosniff"
+    },
+    "body": {
+      "status": "ok",
+      "application": "ELUCENIA",
+      "framework": "Next.js",
+      "version": "1.0.0"
+    },
+    "responseSha256": "65f95645e7826371eb2d9d3f96e0fed52ea4b88c77203f0cf2511769e57cd108",
+    "bytes": 80,
+    "elapsedMs": 27.345699999999994
+  },
+  "identity": {
+    "url": "http://127.0.0.1:3067/_next/data/jN-2wbRrarMjYPwdPnRHh/en/tools.json",
+    "startedAt": "2026-10-05T17:35:43.068Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "retryAfter": null,
+      "cacheControl": "s-maxage=31536000",
+      "nosniff": "nosniff"
+    },
+    "responseSha256": "404601e2c283a588a2f41af4feb5113d1993f76cc22f73a7b8ef4f5d17a82fa8",
+    "bytes": 103853,
+    "elapsedMs": 14.542600000000007,
+    "semanticMatchWithCompiledCatalog": true
+  },
+  "sourceCalculator": {
+    "file": "deliveries/elucenia-next-hostinger-r6/private/tool-code/escala-wfns/calculator.js",
+    "sha256": "adfe18a9258b167be77049d50632cdff6b8489f51e24bbe80dac14e0fe27c43e",
+    "bytes": 4876
+  },
+  "sourceCalculatorMatchesCurrentCandidate": true,
+  "toolStatus": {
+    "cases": 5,
+    "replayed": 5,
+    "passed": 5,
+    "failed": 0,
+    "status": "passed"
+  },
+  "cases": [
+    {
+      "id": "escala-wfns",
+      "kind": "native-source-reference",
+      "index": 0,
+      "name": "Glasgow 15 sem déficit: grau I",
+      "originalInput": {
+        "gcs": 15,
+        "deficit": "0"
+      },
+      "input": {
+        "gcs": 15,
+        "deficit": "0"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "grade": 1
+        },
+        "level": "low",
+        "main": "Grau I"
+      },
+      "recordedResult": {
+        "main": [
+          "Grau I",
+          ""
+        ],
+        "label": "Escala WFNS",
+        "raw": {
+          "grade": 1
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/escala-wfns/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "gcs": 15,
+            "deficit": "0"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/escala-wfns/calculate",
+          "startedAt": "2026-10-05T17:37:15.753Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "escala-wfns",
+              "main": [
+                "Grau I",
+                ""
+              ],
+              "label": "Escala WFNS",
+              "raw": {
+                "grade": 1
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "e5a5f9afce01e4bab2666e3f2e19bf61bde997584b79e51a2b269d924ef594e7",
+          "bytes": 129,
+          "elapsedMs": 6.936900000000605
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/escala-wfns/calculate",
+        "startedAt": "2026-10-05T17:37:15.753Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "escala-wfns",
+            "main": [
+              "Grau I",
+              ""
+            ],
+            "label": "Escala WFNS",
+            "raw": {
+              "grade": 1
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "e5a5f9afce01e4bab2666e3f2e19bf61bde997584b79e51a2b269d924ef594e7",
+        "bytes": 129,
+        "elapsedMs": 6.936900000000605
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.main",
+            "expected": "Grau I",
+            "obtained": "Grau I",
+            "scope": "Recorded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.grade",
+            "expected": 1,
+            "obtained": 1,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.grade",
+            "expected": 1,
+            "obtained": 1,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "Grau I",
+            "obtained": "Grau I",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "",
+            "obtained": "",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "escala-wfns",
+      "kind": "native-source-reference",
+      "index": 1,
+      "name": "Glasgow 13 sem déficit: grau II",
+      "originalInput": {
+        "gcs": 13,
+        "deficit": "0"
+      },
+      "input": {
+        "gcs": 13,
+        "deficit": "0"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "grade": 2
+        },
+        "level": "low"
+      },
+      "recordedResult": {
+        "main": [
+          "Grau II",
+          ""
+        ],
+        "label": "Escala WFNS",
+        "raw": {
+          "grade": 2
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/escala-wfns/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "gcs": 13,
+            "deficit": "0"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/escala-wfns/calculate",
+          "startedAt": "2026-10-05T17:37:16.064Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "escala-wfns",
+              "main": [
+                "Grau II",
+                ""
+              ],
+              "label": "Escala WFNS",
+              "raw": {
+                "grade": 2
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "8ee8edb36d043d078d90447bc6f6ddc4949fff2351c09a15a934a57de39b5c5b",
+          "bytes": 130,
+          "elapsedMs": 4.687200000000303
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/escala-wfns/calculate",
+        "startedAt": "2026-10-05T17:37:16.064Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "escala-wfns",
+            "main": [
+              "Grau II",
+              ""
+            ],
+            "label": "Escala WFNS",
+            "raw": {
+              "grade": 2
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "8ee8edb36d043d078d90447bc6f6ddc4949fff2351c09a15a934a57de39b5c5b",
+        "bytes": 130,
+        "elapsedMs": 4.687200000000303
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.grade",
+            "expected": 2,
+            "obtained": 2,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.grade",
+            "expected": 2,
+            "obtained": 2,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "Grau II",
+            "obtained": "Grau II",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "",
+            "obtained": "",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "escala-wfns",
+      "kind": "native-source-reference",
+      "index": 2,
+      "name": "Glasgow 14 com hemiparesia: grau III",
+      "originalInput": {
+        "gcs": 14,
+        "deficit": "1"
+      },
+      "input": {
+        "gcs": 14,
+        "deficit": "1"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "grade": 3
+        },
+        "level": "mid",
+        "main": "Grau III"
+      },
+      "recordedResult": {
+        "main": [
+          "Grau III",
+          ""
+        ],
+        "label": "Escala WFNS",
+        "raw": {
+          "grade": 3
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/escala-wfns/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "gcs": 14,
+            "deficit": "1"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/escala-wfns/calculate",
+          "startedAt": "2026-10-05T17:37:16.375Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "escala-wfns",
+              "main": [
+                "Grau III",
+                ""
+              ],
+              "label": "Escala WFNS",
+              "raw": {
+                "grade": 3
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "8c2e220a6eba3146c072b11477ad4726e5636b4e176fe3547080dafe7e3f15a9",
+          "bytes": 131,
+          "elapsedMs": 4.254300000000512
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/escala-wfns/calculate",
+        "startedAt": "2026-10-05T17:37:16.375Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "escala-wfns",
+            "main": [
+              "Grau III",
+              ""
+            ],
+            "label": "Escala WFNS",
+            "raw": {
+              "grade": 3
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "8c2e220a6eba3146c072b11477ad4726e5636b4e176fe3547080dafe7e3f15a9",
+        "bytes": 131,
+        "elapsedMs": 4.254300000000512
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.main",
+            "expected": "Grau III",
+            "obtained": "Grau III",
+            "scope": "Recorded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.grade",
+            "expected": 3,
+            "obtained": 3,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.grade",
+            "expected": 3,
+            "obtained": 3,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "Grau III",
+            "obtained": "Grau III",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "",
+            "obtained": "",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "escala-wfns",
+      "kind": "native-source-reference",
+      "index": 3,
+      "name": "Glasgow 7 (limite): grau IV",
+      "originalInput": {
+        "gcs": 7,
+        "deficit": "0"
+      },
+      "input": {
+        "gcs": 7,
+        "deficit": "0"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "grade": 4
+        },
+        "level": "high"
+      },
+      "recordedResult": {
+        "main": [
+          "Grau IV",
+          ""
+        ],
+        "label": "Escala WFNS",
+        "raw": {
+          "grade": 4
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/escala-wfns/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "gcs": 7,
+            "deficit": "0"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/escala-wfns/calculate",
+          "startedAt": "2026-10-05T17:37:16.688Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "escala-wfns",
+              "main": [
+                "Grau IV",
+                ""
+              ],
+              "label": "Escala WFNS",
+              "raw": {
+                "grade": 4
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "a705b50df02452e572c495d5026a51f974e7ac2dd2ae5431d90f64698d1f340b",
+          "bytes": 130,
+          "elapsedMs": 4.10899999999674
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/escala-wfns/calculate",
+        "startedAt": "2026-10-05T17:37:16.688Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "escala-wfns",
+            "main": [
+              "Grau IV",
+              ""
+            ],
+            "label": "Escala WFNS",
+            "raw": {
+              "grade": 4
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "a705b50df02452e572c495d5026a51f974e7ac2dd2ae5431d90f64698d1f340b",
+        "bytes": 130,
+        "elapsedMs": 4.10899999999674
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.grade",
+            "expected": 4,
+            "obtained": 4,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.grade",
+            "expected": 4,
+            "obtained": 4,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "Grau IV",
+            "obtained": "Grau IV",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "",
+            "obtained": "",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "escala-wfns",
+      "kind": "native-source-reference",
+      "index": 4,
+      "name": "Glasgow 6 com déficit: grau V",
+      "originalInput": {
+        "gcs": 6,
+        "deficit": "1"
+      },
+      "input": {
+        "gcs": 6,
+        "deficit": "1"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "grade": 5
+        },
+        "level": "high",
+        "verdict": "mau grau"
+      },
+      "recordedResult": {
+        "main": [
+          "Grau V",
+          ""
+        ],
+        "label": "Escala WFNS",
+        "raw": {
+          "grade": 5
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/escala-wfns/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "gcs": 6,
+            "deficit": "1"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/escala-wfns/calculate",
+          "startedAt": "2026-10-05T17:37:17.001Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "escala-wfns",
+              "main": [
+                "Grau V",
+                ""
+              ],
+              "label": "Escala WFNS",
+              "raw": {
+                "grade": 5
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "531e524ee37329b4eafaa0c6cfbe4da675279f60a88adbb1c7f946be11dc93a6",
+          "bytes": 129,
+          "elapsedMs": 8.08310000000347
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/escala-wfns/calculate",
+        "startedAt": "2026-10-05T17:37:17.001Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "escala-wfns",
+            "main": [
+              "Grau V",
+              ""
+            ],
+            "label": "Escala WFNS",
+            "raw": {
+              "grade": 5
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "531e524ee37329b4eafaa0c6cfbe4da675279f60a88adbb1c7f946be11dc93a6",
+        "bytes": 129,
+        "elapsedMs": 8.08310000000347
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.grade",
+            "expected": 5,
+            "obtained": 5,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.grade",
+            "expected": 5,
+            "obtained": 5,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "Grau V",
+            "obtained": "Grau V",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "",
+            "obtained": "",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    }
+  ],
+  "scope": {
+    "syntheticDataOnly": true,
+    "applicationModuleImports": 0,
+    "browserInteractions": 0,
+    "newIndependentOracles": 0,
+    "nativeSourceReferenceCases": 882,
+    "additionalDecimalCases": 4,
+    "predictProstateHasSeparateFullCurveOracleReplay": true,
+    "clinicalApproval": false,
+    "professionalLanguageApproval": false,
+    "populationValidation": false,
+    "hostingerDeploymentVerified": false,
+    "actualHTTPExecution": true,
+    "standaloneNodeServer": true,
+    "nodeVersion": "v22.18.0",
+    "noNewClinicalOrProfessionalApproval": true,
+    "pubmedResourceIsNotCalculatorAndNotIncludedIn222": true,
+    "description": "All 882 existing reference cases across the 218 native calculators plus four existing Decimal50 examples, executed via HTTP against the final local r6 standalone build. Raw precise source-audit comparisons are transport regressions, not independent clinical or full-method validation."
+  },
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false,
+  "newIndependentOracle": false,
+  "actualBrowserJourney": false,
+  "hostingerDeploymentVerified": false
+}
