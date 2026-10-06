@@ -66,3 +66,57 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+ESA di buon grado clinico (WFNS I a III)
+
+| Dettagli del risultato | |
+| --- | --- |
+| Glasgow | 15 |
+| Deficit motorio focale | assente |
+
+
+### 2
+
+ESA di buon grado clinico (WFNS I a III)
+
+| Dettagli del risultato | |
+| --- | --- |
+| Glasgow | 13 |
+| Deficit motorio focale | assente |
+
+
+### 3
+
+ESA di buon grado clinico (WFNS I a III)
+
+| Dettagli del risultato | |
+| --- | --- |
+| Glasgow | 14 |
+| Deficit motorio focale | presente |
+
+
+### 4
+
+ESA di cattivo grado clinico (WFNS IV e V)
+
+| Dettagli del risultato | |
+| --- | --- |
+| Glasgow | 7 |
+| Deficit motorio focale | assente |
+
+
+### 5
+
+ESA di cattivo grado clinico (WFNS IV e V)
+
+| Dettagli del risultato | |
+| --- | --- |
+| Glasgow | 6 |
+| Deficit motorio focale | presente |
+

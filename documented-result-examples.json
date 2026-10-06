@@ -1,0 +1,2112 @@
+{
+  "id": "escala-wfns",
+  "implementationVersion": "escala-wfns@native-2026-10-05+5caef5a8df8b",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "Glasgow 15 sem déficit: grau I",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "15",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Déficit motor focal",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "ausente",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "HSA de bom grau clínico (WFNS I a III)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Glasgow 13 sem déficit: grau II",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "13",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Déficit motor focal",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "ausente",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "HSA de bom grau clínico (WFNS I a III)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Glasgow 14 com hemiparesia: grau III",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "14",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Déficit motor focal",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "presente",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "HSA de bom grau clínico (WFNS I a III)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Glasgow 7 (limite): grau IV",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "7",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Déficit motor focal",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "ausente",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "HSA de mau grau clínico (WFNS IV e V)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Glasgow 6 com déficit: grau V",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "6",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Déficit motor focal",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "presente",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "HSA de mau grau clínico (WFNS IV e V)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "Glasgow 15 sem déficit: grau I",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "en",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "15",
+                "locale": "en",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  15
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Focal motor deficit",
+                "locale": "en",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "absent",
+                "locale": "en",
+                "template": "documented-authored-d7cb23457963ac3e59db"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Good-grade SAH (WFNS I to III)",
+            "locale": "en",
+            "template": "documented-authored-9abde46aeb9310d1d5e7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Glasgow 13 sem déficit: grau II",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "en",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "13",
+                "locale": "en",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  13
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Focal motor deficit",
+                "locale": "en",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "absent",
+                "locale": "en",
+                "template": "documented-authored-d7cb23457963ac3e59db"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Good-grade SAH (WFNS I to III)",
+            "locale": "en",
+            "template": "documented-authored-9abde46aeb9310d1d5e7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Glasgow 14 com hemiparesia: grau III",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "en",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "14",
+                "locale": "en",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  14
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Focal motor deficit",
+                "locale": "en",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "present",
+                "locale": "en",
+                "template": "documented-authored-a029061744e99452d56c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Good-grade SAH (WFNS I to III)",
+            "locale": "en",
+            "template": "documented-authored-9abde46aeb9310d1d5e7"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Glasgow 7 (limite): grau IV",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "en",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "7",
+                "locale": "en",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  7
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Focal motor deficit",
+                "locale": "en",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "absent",
+                "locale": "en",
+                "template": "documented-authored-d7cb23457963ac3e59db"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Poor-grade SAH (WFNS IV and V)",
+            "locale": "en",
+            "template": "documented-authored-3e3b8705b930e0560c6a"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Glasgow 6 com déficit: grau V",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "en",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "6",
+                "locale": "en",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  6
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Focal motor deficit",
+                "locale": "en",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "present",
+                "locale": "en",
+                "template": "documented-authored-a029061744e99452d56c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Poor-grade SAH (WFNS IV and V)",
+            "locale": "en",
+            "template": "documented-authored-3e3b8705b930e0560c6a"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "Glasgow 15 sem déficit: grau I",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "es",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "15",
+                "locale": "es",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  15
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Déficit motor focal",
+                "locale": "es",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "ausente",
+                "locale": "es",
+                "template": "documented-authored-d7cb23457963ac3e59db"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "HSA de buen grado clínico (WFNS I a III)",
+            "locale": "es",
+            "template": "documented-authored-9abde46aeb9310d1d5e7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Glasgow 13 sem déficit: grau II",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "es",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "13",
+                "locale": "es",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  13
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Déficit motor focal",
+                "locale": "es",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "ausente",
+                "locale": "es",
+                "template": "documented-authored-d7cb23457963ac3e59db"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "HSA de buen grado clínico (WFNS I a III)",
+            "locale": "es",
+            "template": "documented-authored-9abde46aeb9310d1d5e7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Glasgow 14 com hemiparesia: grau III",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "es",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "14",
+                "locale": "es",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  14
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Déficit motor focal",
+                "locale": "es",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "presente",
+                "locale": "es",
+                "template": "documented-authored-a029061744e99452d56c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "HSA de buen grado clínico (WFNS I a III)",
+            "locale": "es",
+            "template": "documented-authored-9abde46aeb9310d1d5e7"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Glasgow 7 (limite): grau IV",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "es",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "7",
+                "locale": "es",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  7
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Déficit motor focal",
+                "locale": "es",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "ausente",
+                "locale": "es",
+                "template": "documented-authored-d7cb23457963ac3e59db"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "HSA de mal grado clínico (WFNS IV y V)",
+            "locale": "es",
+            "template": "documented-authored-3e3b8705b930e0560c6a"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Glasgow 6 com déficit: grau V",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "es",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "6",
+                "locale": "es",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  6
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Déficit motor focal",
+                "locale": "es",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "presente",
+                "locale": "es",
+                "template": "documented-authored-a029061744e99452d56c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "HSA de mal grado clínico (WFNS IV y V)",
+            "locale": "es",
+            "template": "documented-authored-3e3b8705b930e0560c6a"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "Glasgow 15 sem déficit: grau I",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "fr",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "15",
+                "locale": "fr",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  15
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Déficit moteur focal",
+                "locale": "fr",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "absent",
+                "locale": "fr",
+                "template": "documented-authored-d7cb23457963ac3e59db"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "HSA de bon grade clinique (WFNS I à III)",
+            "locale": "fr",
+            "template": "documented-authored-9abde46aeb9310d1d5e7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Glasgow 13 sem déficit: grau II",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "fr",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "13",
+                "locale": "fr",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  13
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Déficit moteur focal",
+                "locale": "fr",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "absent",
+                "locale": "fr",
+                "template": "documented-authored-d7cb23457963ac3e59db"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "HSA de bon grade clinique (WFNS I à III)",
+            "locale": "fr",
+            "template": "documented-authored-9abde46aeb9310d1d5e7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Glasgow 14 com hemiparesia: grau III",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "fr",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "14",
+                "locale": "fr",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  14
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Déficit moteur focal",
+                "locale": "fr",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "présent",
+                "locale": "fr",
+                "template": "documented-authored-a029061744e99452d56c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "HSA de bon grade clinique (WFNS I à III)",
+            "locale": "fr",
+            "template": "documented-authored-9abde46aeb9310d1d5e7"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Glasgow 7 (limite): grau IV",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "fr",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "7",
+                "locale": "fr",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  7
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Déficit moteur focal",
+                "locale": "fr",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "absent",
+                "locale": "fr",
+                "template": "documented-authored-d7cb23457963ac3e59db"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "HSA de mauvais grade clinique (WFNS IV et V)",
+            "locale": "fr",
+            "template": "documented-authored-3e3b8705b930e0560c6a"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Glasgow 6 com déficit: grau V",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "fr",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "6",
+                "locale": "fr",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  6
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Déficit moteur focal",
+                "locale": "fr",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "présent",
+                "locale": "fr",
+                "template": "documented-authored-a029061744e99452d56c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "HSA de mauvais grade clinique (WFNS IV et V)",
+            "locale": "fr",
+            "template": "documented-authored-3e3b8705b930e0560c6a"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "Glasgow 15 sem déficit: grau I",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "de",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "15",
+                "locale": "de",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  15
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fokales motorisches Defizit",
+                "locale": "de",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "nicht vorhanden",
+                "locale": "de",
+                "template": "documented-authored-d7cb23457963ac3e59db"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "SAH mit gutem klinischem Grad (WFNS I bis III)",
+            "locale": "de",
+            "template": "documented-authored-9abde46aeb9310d1d5e7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Glasgow 13 sem déficit: grau II",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "de",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "13",
+                "locale": "de",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  13
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fokales motorisches Defizit",
+                "locale": "de",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "nicht vorhanden",
+                "locale": "de",
+                "template": "documented-authored-d7cb23457963ac3e59db"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "SAH mit gutem klinischem Grad (WFNS I bis III)",
+            "locale": "de",
+            "template": "documented-authored-9abde46aeb9310d1d5e7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Glasgow 14 com hemiparesia: grau III",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "de",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "14",
+                "locale": "de",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  14
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fokales motorisches Defizit",
+                "locale": "de",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "vorhanden",
+                "locale": "de",
+                "template": "documented-authored-a029061744e99452d56c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "SAH mit gutem klinischem Grad (WFNS I bis III)",
+            "locale": "de",
+            "template": "documented-authored-9abde46aeb9310d1d5e7"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Glasgow 7 (limite): grau IV",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "de",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "7",
+                "locale": "de",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  7
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fokales motorisches Defizit",
+                "locale": "de",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "nicht vorhanden",
+                "locale": "de",
+                "template": "documented-authored-d7cb23457963ac3e59db"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "SAH mit schlechtem klinischem Grad (WFNS IV und V)",
+            "locale": "de",
+            "template": "documented-authored-3e3b8705b930e0560c6a"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Glasgow 6 com déficit: grau V",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "de",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "6",
+                "locale": "de",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  6
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fokales motorisches Defizit",
+                "locale": "de",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "vorhanden",
+                "locale": "de",
+                "template": "documented-authored-a029061744e99452d56c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "SAH mit schlechtem klinischem Grad (WFNS IV und V)",
+            "locale": "de",
+            "template": "documented-authored-3e3b8705b930e0560c6a"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "Glasgow 15 sem déficit: grau I",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "it",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "15",
+                "locale": "it",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  15
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Deficit motorio focale",
+                "locale": "it",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "assente",
+                "locale": "it",
+                "template": "documented-authored-d7cb23457963ac3e59db"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "ESA di buon grado clinico (WFNS I a III)",
+            "locale": "it",
+            "template": "documented-authored-9abde46aeb9310d1d5e7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Glasgow 13 sem déficit: grau II",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "it",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "13",
+                "locale": "it",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  13
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Deficit motorio focale",
+                "locale": "it",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "assente",
+                "locale": "it",
+                "template": "documented-authored-d7cb23457963ac3e59db"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "ESA di buon grado clinico (WFNS I a III)",
+            "locale": "it",
+            "template": "documented-authored-9abde46aeb9310d1d5e7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Glasgow 14 com hemiparesia: grau III",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "it",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "14",
+                "locale": "it",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  14
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Deficit motorio focale",
+                "locale": "it",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "presente",
+                "locale": "it",
+                "template": "documented-authored-a029061744e99452d56c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "ESA di buon grado clinico (WFNS I a III)",
+            "locale": "it",
+            "template": "documented-authored-9abde46aeb9310d1d5e7"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Glasgow 7 (limite): grau IV",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "it",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "7",
+                "locale": "it",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  7
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Deficit motorio focale",
+                "locale": "it",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "assente",
+                "locale": "it",
+                "template": "documented-authored-d7cb23457963ac3e59db"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "ESA di cattivo grado clinico (WFNS IV e V)",
+            "locale": "it",
+            "template": "documented-authored-3e3b8705b930e0560c6a"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Glasgow 6 com déficit: grau V",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Glasgow",
+                "locale": "it",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "6",
+                "locale": "it",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  6
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Deficit motorio focale",
+                "locale": "it",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "presente",
+                "locale": "it",
+                "template": "documented-authored-a029061744e99452d56c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "ESA di cattivo grado clinico (WFNS IV e V)",
+            "locale": "it",
+            "template": "documented-authored-3e3b8705b930e0560c6a"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "Glasgow 15 sem déficit: grau I",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "غلاسكو",
+                "locale": "ar",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "١٥",
+                "locale": "ar",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  15
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "عجز حركي بؤري",
+                "locale": "ar",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "غائب",
+                "locale": "ar",
+                "template": "documented-authored-d7cb23457963ac3e59db"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "نزف تحت العنكبوتية من درجة سريرية جيدة (WFNS I إلى III)",
+            "locale": "ar",
+            "template": "documented-authored-9abde46aeb9310d1d5e7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Glasgow 13 sem déficit: grau II",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "غلاسكو",
+                "locale": "ar",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "١٣",
+                "locale": "ar",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  13
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "عجز حركي بؤري",
+                "locale": "ar",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "غائب",
+                "locale": "ar",
+                "template": "documented-authored-d7cb23457963ac3e59db"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "نزف تحت العنكبوتية من درجة سريرية جيدة (WFNS I إلى III)",
+            "locale": "ar",
+            "template": "documented-authored-9abde46aeb9310d1d5e7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Glasgow 14 com hemiparesia: grau III",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "غلاسكو",
+                "locale": "ar",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "١٤",
+                "locale": "ar",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  14
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "عجز حركي بؤري",
+                "locale": "ar",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "موجود",
+                "locale": "ar",
+                "template": "documented-authored-a029061744e99452d56c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "نزف تحت العنكبوتية من درجة سريرية جيدة (WFNS I إلى III)",
+            "locale": "ar",
+            "template": "documented-authored-9abde46aeb9310d1d5e7"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Glasgow 7 (limite): grau IV",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "غلاسكو",
+                "locale": "ar",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "٧",
+                "locale": "ar",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  7
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "عجز حركي بؤري",
+                "locale": "ar",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "غائب",
+                "locale": "ar",
+                "template": "documented-authored-d7cb23457963ac3e59db"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "نزف تحت العنكبوتية من درجة سريرية سيئة (WFNS IV وV)",
+            "locale": "ar",
+            "template": "documented-authored-3e3b8705b930e0560c6a"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Glasgow 6 com déficit: grau V",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "غلاسكو",
+                "locale": "ar",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "٦",
+                "locale": "ar",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  6
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "عجز حركي بؤري",
+                "locale": "ar",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "موجود",
+                "locale": "ar",
+                "template": "documented-authored-a029061744e99452d56c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "نزف تحت العنكبوتية من درجة سريرية سيئة (WFNS IV وV)",
+            "locale": "ar",
+            "template": "documented-authored-3e3b8705b930e0560c6a"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "Glasgow 15 sem déficit: grau I",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "格拉斯哥",
+                "locale": "zh",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "15",
+                "locale": "zh",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  15
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "局灶性运动缺损",
+                "locale": "zh",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "无",
+                "locale": "zh",
+                "template": "documented-authored-d7cb23457963ac3e59db"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "临床分级良好的SAH（WFNS I至III）",
+            "locale": "zh",
+            "template": "documented-authored-9abde46aeb9310d1d5e7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Glasgow 13 sem déficit: grau II",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "格拉斯哥",
+                "locale": "zh",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "13",
+                "locale": "zh",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  13
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "局灶性运动缺损",
+                "locale": "zh",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "无",
+                "locale": "zh",
+                "template": "documented-authored-d7cb23457963ac3e59db"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "临床分级良好的SAH（WFNS I至III）",
+            "locale": "zh",
+            "template": "documented-authored-9abde46aeb9310d1d5e7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Glasgow 14 com hemiparesia: grau III",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "格拉斯哥",
+                "locale": "zh",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "14",
+                "locale": "zh",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  14
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "局灶性运动缺损",
+                "locale": "zh",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "有",
+                "locale": "zh",
+                "template": "documented-authored-a029061744e99452d56c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "临床分级良好的SAH（WFNS I至III）",
+            "locale": "zh",
+            "template": "documented-authored-9abde46aeb9310d1d5e7"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Glasgow 7 (limite): grau IV",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "格拉斯哥",
+                "locale": "zh",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "7",
+                "locale": "zh",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  7
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "局灶性运动缺损",
+                "locale": "zh",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "无",
+                "locale": "zh",
+                "template": "documented-authored-d7cb23457963ac3e59db"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "临床分级差的SAH（WFNS IV和V）",
+            "locale": "zh",
+            "template": "documented-authored-3e3b8705b930e0560c6a"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Glasgow 6 com déficit: grau V",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "格拉斯哥",
+                "locale": "zh",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "6",
+                "locale": "zh",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  6
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "局灶性运动缺损",
+                "locale": "zh",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "有",
+                "locale": "zh",
+                "template": "documented-authored-a029061744e99452d56c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "临床分级差的SAH（WFNS IV和V）",
+            "locale": "zh",
+            "template": "documented-authored-3e3b8705b930e0560c6a"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "Glasgow 15 sem déficit: grau I",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "グラスゴー",
+                "locale": "ja",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "15",
+                "locale": "ja",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  15
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "局所運動麻痺",
+                "locale": "ja",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "なし",
+                "locale": "ja",
+                "template": "documented-authored-d7cb23457963ac3e59db"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "臨床的に良好グレードのSAH（WFNS I～III）",
+            "locale": "ja",
+            "template": "documented-authored-9abde46aeb9310d1d5e7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Glasgow 13 sem déficit: grau II",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "グラスゴー",
+                "locale": "ja",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "13",
+                "locale": "ja",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  13
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "局所運動麻痺",
+                "locale": "ja",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "なし",
+                "locale": "ja",
+                "template": "documented-authored-d7cb23457963ac3e59db"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "臨床的に良好グレードのSAH（WFNS I～III）",
+            "locale": "ja",
+            "template": "documented-authored-9abde46aeb9310d1d5e7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Glasgow 14 com hemiparesia: grau III",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "グラスゴー",
+                "locale": "ja",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "14",
+                "locale": "ja",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  14
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "局所運動麻痺",
+                "locale": "ja",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "あり",
+                "locale": "ja",
+                "template": "documented-authored-a029061744e99452d56c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "臨床的に良好グレードのSAH（WFNS I～III）",
+            "locale": "ja",
+            "template": "documented-authored-9abde46aeb9310d1d5e7"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Glasgow 7 (limite): grau IV",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "グラスゴー",
+                "locale": "ja",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "7",
+                "locale": "ja",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  7
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "局所運動麻痺",
+                "locale": "ja",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "なし",
+                "locale": "ja",
+                "template": "documented-authored-d7cb23457963ac3e59db"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "臨床的に不良グレードのSAH（WFNS IVおよびV）",
+            "locale": "ja",
+            "template": "documented-authored-3e3b8705b930e0560c6a"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Glasgow 6 com déficit: grau V",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "グラスゴー",
+                "locale": "ja",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "6",
+                "locale": "ja",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  6
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "局所運動麻痺",
+                "locale": "ja",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "あり",
+                "locale": "ja",
+                "template": "documented-authored-a029061744e99452d56c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "臨床的に不良グレードのSAH（WFNS IVおよびV）",
+            "locale": "ja",
+            "template": "documented-authored-3e3b8705b930e0560c6a"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "Glasgow 15 sem déficit: grau I",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "ग्लासगो",
+                "locale": "hi",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "15",
+                "locale": "hi",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  15
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "फोकल मोटर न्यूनता",
+                "locale": "hi",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "अनुपस्थित",
+                "locale": "hi",
+                "template": "documented-authored-d7cb23457963ac3e59db"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "अच्छे नैदानिक ग्रेड का SAH (WFNS I से III)",
+            "locale": "hi",
+            "template": "documented-authored-9abde46aeb9310d1d5e7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Glasgow 13 sem déficit: grau II",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "ग्लासगो",
+                "locale": "hi",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "13",
+                "locale": "hi",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  13
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "फोकल मोटर न्यूनता",
+                "locale": "hi",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "अनुपस्थित",
+                "locale": "hi",
+                "template": "documented-authored-d7cb23457963ac3e59db"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "अच्छे नैदानिक ग्रेड का SAH (WFNS I से III)",
+            "locale": "hi",
+            "template": "documented-authored-9abde46aeb9310d1d5e7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Glasgow 14 com hemiparesia: grau III",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "ग्लासगो",
+                "locale": "hi",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "14",
+                "locale": "hi",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  14
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "फोकल मोटर न्यूनता",
+                "locale": "hi",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "उपस्थित",
+                "locale": "hi",
+                "template": "documented-authored-a029061744e99452d56c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "अच्छे नैदानिक ग्रेड का SAH (WFNS I से III)",
+            "locale": "hi",
+            "template": "documented-authored-9abde46aeb9310d1d5e7"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Glasgow 7 (limite): grau IV",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "ग्लासगो",
+                "locale": "hi",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "7",
+                "locale": "hi",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  7
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "फोकल मोटर न्यूनता",
+                "locale": "hi",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "अनुपस्थित",
+                "locale": "hi",
+                "template": "documented-authored-d7cb23457963ac3e59db"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "खराब नैदानिक ग्रेड का SAH (WFNS IV और V)",
+            "locale": "hi",
+            "template": "documented-authored-3e3b8705b930e0560c6a"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Glasgow 6 com déficit: grau V",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "ग्लासगो",
+                "locale": "hi",
+                "template": "documented-authored-bc0dc189a46a897845aa"
+              },
+              "value": {
+                "text": "6",
+                "locale": "hi",
+                "template": "documented-authored-cabd41fad81432198ef0",
+                "sourceNumbers": [
+                  6
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "फोकल मोटर न्यूनता",
+                "locale": "hi",
+                "template": "documented-authored-e37d824924289de5b821"
+              },
+              "value": {
+                "text": "उपस्थित",
+                "locale": "hi",
+                "template": "documented-authored-a029061744e99452d56c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "खराब नैदानिक ग्रेड का SAH (WFNS IV और V)",
+            "locale": "hi",
+            "template": "documented-authored-3e3b8705b930e0560c6a"
+          },
+          "level": "high"
+        }
+      }
+    ]
+  }
+}

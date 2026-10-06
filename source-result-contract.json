@@ -1,0 +1,329 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "escala-wfns",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "e473c6f82a62b50df9e6df3036dc13ed06833e3a",
+    "oldEngineSha256": "adfe18a9258b167be77049d50632cdff6b8489f51e24bbe80dac14e0fe27c43e",
+    "currentEngineSha256": "5caef5a8df8bad7a10caf25c8979ed840a3675214997f5506f03eeabf5d18fed"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "Glasgow 15 sem déficit: grau I",
+      "input": {
+        "gcs": 15,
+        "deficit": "0"
+      },
+      "publicOutput": {
+        "id": "escala-wfns",
+        "main": [
+          "Grau I",
+          ""
+        ],
+        "label": "Escala WFNS",
+        "raw": {
+          "grade": 1
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "grade": 1
+        },
+        "level": "low",
+        "main": "Grau I"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "Grau I",
+          ""
+        ],
+        "label": "Escala WFNS",
+        "level": "low",
+        "verdict": "HSA de bom grau clínico (WFNS I a III)",
+        "rows": [
+          [
+            "Glasgow",
+            "15"
+          ],
+          [
+            "Déficit motor focal",
+            "ausente"
+          ]
+        ],
+        "note": "",
+        "raw": {
+          "grade": 1
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "Glasgow 13 sem déficit: grau II",
+      "input": {
+        "gcs": 13,
+        "deficit": "0"
+      },
+      "publicOutput": {
+        "id": "escala-wfns",
+        "main": [
+          "Grau II",
+          ""
+        ],
+        "label": "Escala WFNS",
+        "raw": {
+          "grade": 2
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "grade": 2
+        },
+        "level": "low"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "Grau II",
+          ""
+        ],
+        "label": "Escala WFNS",
+        "level": "low",
+        "verdict": "HSA de bom grau clínico (WFNS I a III)",
+        "rows": [
+          [
+            "Glasgow",
+            "13"
+          ],
+          [
+            "Déficit motor focal",
+            "ausente"
+          ]
+        ],
+        "note": "",
+        "raw": {
+          "grade": 2
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "Glasgow 14 com hemiparesia: grau III",
+      "input": {
+        "gcs": 14,
+        "deficit": "1"
+      },
+      "publicOutput": {
+        "id": "escala-wfns",
+        "main": [
+          "Grau III",
+          ""
+        ],
+        "label": "Escala WFNS",
+        "raw": {
+          "grade": 3
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "grade": 3
+        },
+        "level": "mid",
+        "main": "Grau III"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "Grau III",
+          ""
+        ],
+        "label": "Escala WFNS",
+        "level": "mid",
+        "verdict": "HSA de bom grau clínico (WFNS I a III)",
+        "rows": [
+          [
+            "Glasgow",
+            "14"
+          ],
+          [
+            "Déficit motor focal",
+            "presente"
+          ]
+        ],
+        "note": "",
+        "raw": {
+          "grade": 3
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 3,
+      "name": "Glasgow 7 (limite): grau IV",
+      "input": {
+        "gcs": 7,
+        "deficit": "0"
+      },
+      "publicOutput": {
+        "id": "escala-wfns",
+        "main": [
+          "Grau IV",
+          ""
+        ],
+        "label": "Escala WFNS",
+        "raw": {
+          "grade": 4
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "grade": 4
+        },
+        "level": "high"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "Grau IV",
+          ""
+        ],
+        "label": "Escala WFNS",
+        "level": "high",
+        "verdict": "HSA de mau grau clínico (WFNS IV e V)",
+        "rows": [
+          [
+            "Glasgow",
+            "7"
+          ],
+          [
+            "Déficit motor focal",
+            "ausente"
+          ]
+        ],
+        "note": "",
+        "raw": {
+          "grade": 4
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 4,
+      "name": "Glasgow 6 com déficit: grau V",
+      "input": {
+        "gcs": 6,
+        "deficit": "1"
+      },
+      "publicOutput": {
+        "id": "escala-wfns",
+        "main": [
+          "Grau V",
+          ""
+        ],
+        "label": "Escala WFNS",
+        "raw": {
+          "grade": 5
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "grade": 5
+        },
+        "level": "high",
+        "verdict": "mau grau"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "Grau V",
+          ""
+        ],
+        "label": "Escala WFNS",
+        "level": "high",
+        "verdict": "HSA de mau grau clínico (WFNS IV e V)",
+        "rows": [
+          [
+            "Glasgow",
+            "6"
+          ],
+          [
+            "Déficit motor focal",
+            "presente"
+          ]
+        ],
+        "note": "",
+        "raw": {
+          "grade": 5
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    }
+  ]
+}

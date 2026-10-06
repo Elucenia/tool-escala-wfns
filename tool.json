@@ -285,7 +285,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "WFNS/Teasdale 1988:GCS edéficitmotor,5 graus",
-    "implementationVersion": "escala-wfns@native-2026-10-03+adfe18a9258b",
+    "implementationVersion": "escala-wfns@native-2026-10-05+5caef5a8df8b",
     "currentMethodSource": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1032822/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -506,7 +506,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "adfe18a9258b167be77049d50632cdff6b8489f51e24bbe80dac14e0fe27c43e"
+      "implementationHash": "5caef5a8df8bad7a10caf25c8979ed840a3675214997f5506f03eeabf5d18fed",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "escala-wfns@native-2026-10-03+adfe18a9258b",
+          "previousImplementationHash": "adfe18a9258b167be77049d50632cdff6b8489f51e24bbe80dac14e0fe27c43e",
+          "implementationHash": "5caef5a8df8bad7a10caf25c8979ed840a3675214997f5506f03eeabf5d18fed",
+          "scientificBodySha256": "1914c10ee27dbcdf788f4c02b9443d97c6c26c1ff0c44820001e20e36268476d",
+          "metadataContractHash": "89c5298e7e42e1a508b452deb545419077d24ae1fd4d8296efc1c0239f6d21ed",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "A WFNS de 1988 combina Glasgow e déficit motor para graduar hemorragia subaracnóidea; o grau zero da fonte corresponde a aneurisma não roto e é distinto dos cinco graus de hemorragia. Use Glasgow clinicamente avaliável e documente fatores que interfiram no exame. O artigo não descreve a combinação Glasgow 15 com déficit motor; a interface mantém grau I e exibe essa ressalva, sem apresentá-la como combinação validada. Esta é a edição original, não uma WFNS modificada posterior, e não fornece prognóstico individual automático.",
     "limitsEvidence": {
@@ -533,20 +561,20 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/escala-wfns/calculator.js",
-    "bytes": 4876,
-    "sha256": "adfe18a9258b167be77049d50632cdff6b8489f51e24bbe80dac14e0fe27c43e"
+    "bytes": 5081,
+    "sha256": "5caef5a8df8bad7a10caf25c8979ed840a3675214997f5506f03eeabf5d18fed"
   },
-  "sourceToolSha256": "dfa17d652d6a6017db7d49ce5fbfe76cbf6004981f3a8b1fe46ed000eda18d76",
+  "sourceToolSha256": "7ae5a057c7c4268a58e3a5345a6f560b7e85f2b42889832ed11f12da123c9464",
   "omittedFullReferenceBanks": [
     {
       "rows": 4,
       "sha256": "89a1cb814d6b0be580d966d4dfc8082455227937c2b4d9ebf5ee1a23432a0b41",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     },
     {
       "rows": 4,
       "sha256": "89a1cb814d6b0be580d966d4dfc8082455227937c2b4d9ebf5ee1a23432a0b41",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

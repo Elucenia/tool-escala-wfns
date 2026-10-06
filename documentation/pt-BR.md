@@ -66,3 +66,57 @@ Resultado da fórmula ou classificação. Interpretação, conduta e aplicabilid
 Apache-2.0 aplica-se somente ao código da ELUCENIA. Os instrumentos, publicações, traduções e dados mantêm os direitos dos respectivos titulares. Preserve LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+As informações abaixo preservam as saídas do método para exemplos sintéticos. Não constituem validação clínica independente.
+
+### 1
+
+HSA de bom grau clínico (WFNS I a III)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Glasgow | 15 |
+| Déficit motor focal | ausente |
+
+
+### 2
+
+HSA de bom grau clínico (WFNS I a III)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Glasgow | 13 |
+| Déficit motor focal | ausente |
+
+
+### 3
+
+HSA de bom grau clínico (WFNS I a III)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Glasgow | 14 |
+| Déficit motor focal | presente |
+
+
+### 4
+
+HSA de mau grau clínico (WFNS IV e V)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Glasgow | 7 |
+| Déficit motor focal | ausente |
+
+
+### 5
+
+HSA de mau grau clínico (WFNS IV e V)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Glasgow | 6 |
+| Déficit motor focal | presente |
+

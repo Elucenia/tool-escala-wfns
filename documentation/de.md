@@ -66,3 +66,57 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+SAH mit gutem klinischem Grad (WFNS I bis III)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Glasgow | 15 |
+| Fokales motorisches Defizit | nicht vorhanden |
+
+
+### 2
+
+SAH mit gutem klinischem Grad (WFNS I bis III)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Glasgow | 13 |
+| Fokales motorisches Defizit | nicht vorhanden |
+
+
+### 3
+
+SAH mit gutem klinischem Grad (WFNS I bis III)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Glasgow | 14 |
+| Fokales motorisches Defizit | vorhanden |
+
+
+### 4
+
+SAH mit schlechtem klinischem Grad (WFNS IV und V)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Glasgow | 7 |
+| Fokales motorisches Defizit | nicht vorhanden |
+
+
+### 5
+
+SAH mit schlechtem klinischem Grad (WFNS IV und V)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Glasgow | 6 |
+| Fokales motorisches Defizit | vorhanden |
+
